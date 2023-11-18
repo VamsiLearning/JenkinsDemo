@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo 'Hello from jenkins branch'
+        echo 'Hello from jenkins1 branch'
       }
     }
     stage('Bye') {
