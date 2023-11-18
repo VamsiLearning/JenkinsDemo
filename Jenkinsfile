@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo 'Hello world'
+        echo 'Hello from jenkins branch'
       }
     }
     stage('Bye') {
       steps {
-        echo 'Bye world'
+        echo 'Bye from jenkins1 branch'
       }
     }
   }
